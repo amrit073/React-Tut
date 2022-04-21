@@ -4,10 +4,6 @@ const Book = (props) => {
 		console.log(e.target);
 		
 	}
-	const clickHandler = (author) =>{
-
-		alert(author)
-	}
 	const compClickHandler = (author) =>{
 		alert(author)
 	}
