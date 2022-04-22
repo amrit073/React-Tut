@@ -10,11 +10,6 @@ const Booklist = () => {
 	return (
 		<section className="booklist">
 			{books.map((book, index) => {
-				// const {title, alt, author, src} = book
-				console.log({book});
-				console.log({...book});
-
-				
 				return <Book key={index} book={book} />
 			})}
 		</section>
